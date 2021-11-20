@@ -17,6 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="실제 이름 자리"
+        android:id="@+id/txtName"
         android:textSize="17sp"
         android:layout_marginTop="5dp"/>
 
@@ -30,6 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="34세"
+        android:id="@+id/txtAge"
         android:textSize="17sp"
         android:layout_marginTop="5dp"/>
 
@@ -43,6 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="실제 거쥐지 자리"
+        android:id="@+id/txtAddress"
         android:textSize="17sp"
         android:layout_marginTop="5dp"/>
 
