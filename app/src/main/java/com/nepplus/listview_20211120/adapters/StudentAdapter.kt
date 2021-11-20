@@ -53,8 +53,8 @@ class StudentAdapter(
 //        txtAge.text = "${data.birthYear} 년생"
 //        (34세) 등으로 나이를 계산 / 가공
 
-        val age = 2021 - data.birthYear + 1
-        txtAge.text = "(${age}세)"
+
+        txtAge.text = "(${data.getAgeByYear(2021)}세)"
 
 
         txtAddress.text = data.address
